@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.adv{
+    width: 100%;
+    height: 320px;
+    background-image: url(./mountains-5237939_1920.jpg);
+    background-size: cover;
+}
+
+.menu{
+    width: 100%;
+    height: 85px;
+    background: turquoise;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+
+h2{
+    top:25px;
+    position: relative;
+    display: inline;
+    text-align: center;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.box{
+    width: 100%;
+    height: 1200px;
+    background: skyblue;
+    border: 1px green solid;
+}
+
+.box > .box-min{
+width: 350px;
+height: 350px;
+background-image: url(./mountains-5237939_1920.jpg);
+background-size: cover;
+display: inline-block;
+}
+
+p{
+    display: inline;
+}
